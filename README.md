@@ -12,10 +12,16 @@ pip install GML_KIN
 class KIN(*, k=0, num_edge_types=1, edge_weights=[1], validation_size=0.1, random_state=42)
 ```
 ##### Parameters:
-**k: *int, default=0***
-Maximum number of immediate neighbors to ask about the label. In case of num_neighbors > k, asks the ones with the highest weight on their respective edge.
-If k=0, asks all immediate neighbors.
-**num_edge_types: *int, default=1***
+**k: *int, default=0***\
+Maximum number of immediate neighbors to ask about the label. In case of num_neighbors > k, asks the ones with the highest weight on their respective edge.\
+If k=0, asks all immediate neighbors.\
+
+**num_edge_types: *int, default=1***\
+You can define multiple edge types with KIN. For example if you want to classify books, you might have edge types: same_author, same_genre, same_price_range, belonging_to_same_series, ...\
+This parameter represents the count of your different edge types.\
+Note that later these types will be identified with numbers ranging from 0 to num_edge_types-1\
+
+**edge_weights: *list, default=[1]***
 
 ### Example:
 
