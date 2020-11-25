@@ -1,4 +1,15 @@
 # K Immediate Neighbors
+K Immediate Neighbors or **KIN** is a machine learning algorithm inspired by KNN (K Nearest Neighbors) which has been adjusted to graph-structured data. Instead of asking k nearest neighbors of a test *sample* in euclidean space about the label, it asks the k immidiate neighbors of a test *node* in graph.
+
+### Installation:
+
+
+### Usage:
+
+
+### Example:
+
+##### Sample code:
 ```python
 from GML_KIN import KIN
 
