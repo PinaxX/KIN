@@ -61,6 +61,9 @@ Returns the accuracy on the given test data and labels.\
 In this version only *accuracy* is supported, I'll add more measures in later releases.
 
 ## Example:
+![Sample graph](https://raw.githubusercontent.com/PinaxX/KIN/main/sample_graph.jpg)
+Black edges are type 0.\
+You can see the code represtation of this graph in the section below.
 
 #### Sample code:
 ```python
